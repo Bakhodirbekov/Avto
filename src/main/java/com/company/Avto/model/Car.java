@@ -19,5 +19,8 @@ public class Car {
     @Column (name = "rangi")
     private  String rangi;
 
+    @Column (name = "kuzuf_nomeri")
+    private  String kuzuf_nomeri;
+
 
 }
