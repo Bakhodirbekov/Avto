@@ -14,6 +14,7 @@ public class Car {
     private String rusumi;
 
     @Column (name = "brend")
+
     private  String brend;
 
     @Column (name = "rangi")
