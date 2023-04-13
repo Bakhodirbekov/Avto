@@ -14,10 +14,10 @@ public class MeinController {
         return "Home";
     }
 
-    @GetMapping("/about")
-    public String about( Model model) {
+    @GetMapping("/index2")
+    public String index2( Model model) {
         model.addAttribute("title", "Biz haqimizda");
-        return "about";
+        return "index2";
     }
 
 }
