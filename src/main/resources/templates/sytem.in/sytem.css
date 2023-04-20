@@ -157,6 +157,9 @@ body {
 }
 
 
+.next_exit{
+  width: 100%;
+}
 #menuToggle input {
   display: block;
   width: 40px;
