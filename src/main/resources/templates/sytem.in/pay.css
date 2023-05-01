@@ -23,8 +23,11 @@
     }
 }
 
+
 main {
-    -webkit-locale: "en";
+
+    
+    -webkit-locale: "ru";
     box-sizing: border-box;
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -52,3 +55,14 @@ main {
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     scroll-behavior: smooth;
 }
+.bg-light{
+    background-color: #467660bd
+}
+/* span{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+} */

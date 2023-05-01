@@ -352,6 +352,7 @@ margin: 18px !important;
   filter: blur(5px); */
   background-attachment: fixed;
   width: 100%;
+  margin-top: -35px;
   background-repeat: no-repeat;
   padding: inherit;
   padding-left: 10px;
@@ -12678,6 +12679,9 @@ html *::after {
   height: 0;
 }
 
+.next_exit{
+  width: 100% !important;
+}
 
 @media screen and (max-width: 50em) {
   .menu {
@@ -12688,6 +12692,7 @@ html *::after {
 .img {
   background-image: url("../icon/adult-businessman-businesswomen-1061588-1.jpg");
 }
+
 
 
 

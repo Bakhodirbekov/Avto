@@ -5,6 +5,10 @@
   height: 100%;
 }
 
+.next_exit{
+  width: 100% !important;
+}
+
 .header_img {
   /* -webkit-filter: blur(5px);
   -moz-filter: blur(5px);

@@ -16,7 +16,7 @@
 
     <nav class="navbar navbar-dark bg-dark fixed-top" style="background-color: #062617f5 !important;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="font-size: 24px; color: #fd5631; ">Rental Car</a>
+        <a class="navbar-brand" href="#" style="font-size: 24px; color: #fd5631; ">Pay Sell</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
           aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -81,68 +81,33 @@
       <div class="row g-5">
         <div class="col-md-5 col-lg-4 order-md-last">
           <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-primary">Your cart</span>
-            <span class="badge bg-primary rounded-pill">3</span>
+            <span class="text-primary">Exchange Rates</span>
           </h4>
           <ul class="list-group mb-3">
             <li class="list-group-item d-flex justify-content-between lh-sm">
               <div>
-                <h6 class="my-0">Product name</h6>
-                <small class="text-muted">Brief description</small>
+                <h6 class="my-0">UZB</h6>
+                <small class="text-muted">UZS</small>
               </div>
-              <span class="text-muted">$12</span>
+              <span class="text-muted">11455</span>
             </li>
             <li class="list-group-item d-flex justify-content-between lh-sm">
               <div>
-                <h6 class="my-0">Second product</h6>
-                <small class="text-muted">Brief description</small>
+                <h6 class="my-0">USA</h6>
+                <small class="text-muted">USD</small>
               </div>
-              <span class="text-muted">$8</span>
+              <span class="text-muted">1</span>
             </li>
             <li class="list-group-item d-flex justify-content-between lh-sm">
               <div>
-                <h6 class="my-0">Third item</h6>
-                <small class="text-muted">Brief description</small>
+                <h6 class="my-0">RUS</h6>
+                <small class="text-muted">RUB</small>
               </div>
-              <span class="text-muted">$5</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between bg-light">
-              <div class="text-success">
-                <h6 class="my-0">Promo code</h6>
-                <small>EXAMPLECODE</small>
-              </div>
-              <span class="text-success">−$5</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
-              <strong>$20</strong>
+              <span class="text-muted">12122</span>
             </li>
           </ul>
 
-          <form class="card p-2">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Promo code">
-              <button type="submit" class="btn btn-secondary">Redeem</button>
-            </div>
-          </form>
-        </div>
 
-        <div class="carts">
-          <figure class="figure">
-            <img src="..." class="figure-img img-fluid rounded" alt="...">
-            <figcaption class="figure-caption">A caption for the above image.</figcaption>
-          </figure>
-
-          <figure class="figure">
-            <img src="..." class="figure-img img-fluid rounded" alt="...">
-            <figcaption class="figure-caption">A caption for the above image.</figcaption>
-          </figure>
-
-          <figure class="figure">
-            <img src="..." class="figure-img img-fluid rounded" alt="...">
-            <figcaption class="figure-caption">A caption for the above image.</figcaption>
-          </figure>
-          
         </div>
         <div class="col-md-7 col-lg-8">
           <h4 class="mb-3">Billing address</h4>
@@ -217,19 +182,59 @@
                 </div>
               </div>
 
-              <div class="col-md-3">
-                <label for="cc-expiration" class="form-label">Expiration</label>
-                <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+            <div class="col-md-3 col-sm-6 mb-3">
+                <label for="cc-cvv" class="form-label">Month<samp style="color: red;">*</samp></label>
+                <select class="form-select form-select-light" id="sc-year">
+                  <option value="" disabled="">Select Month</option>
+                  <option value="2021"  selected="" >1</option>
+                  <option value="2020">2</option>
+                  <option value="2019">3</option>
+                  <option value="2018">4</option>
+                  <option value="2017">5</option>
+                  <option value="2016">6</option>
+                  <option value="2015">7</option>
+                  <option value="2014">8</option>
+                  <option value="2013">9</option>
+                  <option value="2013">10</option>
+                  <option value="2013">11</option>
+                  <option value="2013">12</option>
+                </select>
                 <div class="invalid-feedback">
-                  Expiration date required
+                  Credit card number is required
                 </div>
               </div>
 
-              <div class="col-md-3">
-                <label for="cc-cvv" class="form-label">CVV</label>
-                <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+              <div class="col-md-3 col-sm-6 mb-3">
+                <label for="cc-cvv" class="form-label">Year<samp style="color: red;">*</samp></label>
+                <select class="form-select form-select-light" id="sc-year">
+                  <option value="" disabled="">Select year</option>
+                  <option value="2021">2028</option>
+                  <option value="2020">2027</option>
+                  <option value="2019">2026</option>
+                  <option value="2018">2025</option>
+                  <option value="2017">2024</option>
+                  <option value="2016">2023</option>
+                  <option value="2015">2022</option>
+                  <option value="2014">2021</option>
+                  <option value="2013"  selected="">2020</option>
+                  <option value="2017">2019</option>
+                  <option value="2016">2018</option>
+                  <option value="2015">2017</option>
+                  <option value="2014">2016</option>
+                  <option value="2013">2015</option>
+                  <option value="2017">2014</option>
+                  <option value="2016">2013</option>
+                  <option value="2015">2012</option>
+                  <option value="2014">2011</option>
+                  <option value="2013">2010</option>
+                  <option value="2017">2009</option>
+                  <option value="2016">2008</option>
+                  <option value="2015">2007</option>
+                  <option value="2014">2006</option>
+                  <option value="2013">2006</option>
+                </select>
                 <div class="invalid-feedback">
-                  Security code required
+                  Credit card number is required
                 </div>
               </div>
 
