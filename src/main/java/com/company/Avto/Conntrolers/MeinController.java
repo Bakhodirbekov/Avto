@@ -15,7 +15,7 @@ public class MeinController {
         return "Home";
     }
 
-    @GetMapping("/index2")
+    @GetMapping("/Home")
     @RequestMapping(value = "/index2")
     public String index2( Model model) {
         model.addAttribute("title", "Biz haqimizda");
