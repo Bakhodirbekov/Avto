@@ -10,18 +10,16 @@
 }
 
 .header_img {
-  /* -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
-  filter: blur(5px); */
   background-attachment: fixed;
   width: 100%;
   background-repeat: no-repeat;
   padding: inherit;
   padding-left: 10px;
   padding-bottom: 260px;
-  background-image: url("../img/d77b2c1177e11d2c13b79e62be283879.jpeg");
+  background-image: url(../img/d77b2c1177e11d2c13b79e62be283879.jpeg) !important;
   background-size: cover;
   background-position: center;
 }
